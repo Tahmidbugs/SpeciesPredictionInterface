@@ -1,0 +1,62 @@
+.mosquito-table {
+    
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+
+  }
+  
+  .mosquito-table td,
+  .mosquito-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 10px;
+
+
+  }
+  
+  .mosquito-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+  }
+  
+  .mosquito-table tr:hover {
+    background-color: #ddd;
+    
+  }
+  
+  .mosquito-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3d6095;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding:15px;
+
+  }
+  
+  .pageContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      font-family: Raleway, sans-serif;
+      background-color: #ffffff;
+      background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+      min-height: 100vh;
+    }
+    
+  label{
+    margin-right:10px;
+  }
+  
+  select{
+    padding:0.5rem;
+    border-radius:20px;
+  }
+
